@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://cwgv70y13ccgc"]
+
+[ext_resource type="Theme" uid="uid://cj4r7artl077k" path="res://ui/theme/default/day_show.tres" id="1_tub6f"]
+
+[sub_resource type="Theme" id="Theme_83gp6"]
+
+[node name="DayShow-PC" type="HBoxContainer" unique_id=1983958517]
+offset_right = 40.0
+offset_bottom = 40.0
+theme = ExtResource("1_tub6f")
+
+[node name="Label" type="Label" parent="." unique_id=1640834267]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+theme = SubResource("Theme_83gp6")
+text = "Mon"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="." unique_id=1090672384]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+text = "Tue"
+horizontal_alignment = 1
+
+[node name="Label3" type="Label" parent="." unique_id=965311017]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+text = "Wed"
+horizontal_alignment = 1
+
+[node name="Label4" type="Label" parent="." unique_id=667950733]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+text = "Thu"
+horizontal_alignment = 1
+
+[node name="Label5" type="Label" parent="." unique_id=1763641953]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+text = "Fri"
+horizontal_alignment = 1
+
+[node name="Label6" type="Label" parent="." unique_id=973360456]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+text = "Sat"
+horizontal_alignment = 1
+
+[node name="Label7" type="Label" parent="." unique_id=1935281044]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+text = "Sun"
+horizontal_alignment = 1

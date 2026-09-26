@@ -1,0 +1,51 @@
+# LANGUAGE translation for Class Schedule for the following files:
+# res://ui/pc/main_ui_pc.tscn
+# res://ui/pc/class_schedule/day_show_pc.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Class Schedule\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ui/pc/main_ui_pc.tscn
+msgid "Class Schedule"
+msgstr "课程表"
+
+#: ui/pc/class_schedule/day_show_pc.tscn
+msgid "Mon"
+msgstr "一"
+
+#: ui/pc/class_schedule/day_show_pc.tscn
+msgid "Tue"
+msgstr "二"
+
+#: ui/pc/class_schedule/day_show_pc.tscn
+msgid "Wed"
+msgstr "三"
+
+#: ui/pc/class_schedule/day_show_pc.tscn
+msgid "Thu"
+msgstr "四"
+
+#: ui/pc/class_schedule/day_show_pc.tscn
+msgid "Fri"
+msgstr "五"
+
+#: ui/pc/class_schedule/day_show_pc.tscn
+msgid "Sat"
+msgstr "六"
+
+#: ui/pc/class_schedule/day_show_pc.tscn
+msgid "Sun"
+msgstr "日"

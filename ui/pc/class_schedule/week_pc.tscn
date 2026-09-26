@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://duk35uoe4iysx"]
+
+[ext_resource type="PackedScene" uid="uid://djbr7gbliu0g4" path="res://ui/pc/class_schedule/class_tile_pc.tscn" id="1_o8v6p"]
+
+[node name="Class-PC" type="HBoxContainer" unique_id=229649314]
+custom_minimum_size = Vector2(150, 150)
+offset_right = 766.0
+offset_bottom = 150.0
+
+[node name="Class-Tile-PC" parent="." unique_id=1633656310 instance=ExtResource("1_o8v6p")]
+layout_mode = 2
+
+[node name="Class-Tile-PC2" parent="." unique_id=846495093 instance=ExtResource("1_o8v6p")]
+layout_mode = 2
+
+[node name="Class-Tile-PC3" parent="." unique_id=1111930156 instance=ExtResource("1_o8v6p")]
+layout_mode = 2
+
+[node name="Class-Tile-PC4" parent="." unique_id=1592790535 instance=ExtResource("1_o8v6p")]
+layout_mode = 2
+
+[node name="Class-Tile-PC5" parent="." unique_id=976544924 instance=ExtResource("1_o8v6p")]
+layout_mode = 2
+
+[node name="Class-Tile-PC6" parent="." unique_id=979888269 instance=ExtResource("1_o8v6p")]
+layout_mode = 2
+
+[node name="Class-Tile-PC7" parent="." unique_id=1263823187 instance=ExtResource("1_o8v6p")]
+layout_mode = 2

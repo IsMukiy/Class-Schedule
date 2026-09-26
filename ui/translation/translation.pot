@@ -1,0 +1,45 @@
+# LANGUAGE translation for Class Schedule for the following files:
+# res://ui/pc/main_ui_pc.tscn
+# res://ui/pc/class_schedule/day_show_pc.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Class Schedule\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: ui/pc/main_ui_pc.tscn
+msgid "Class Schedule"
+msgstr ""
+
+#: ui/pc/class_schedule/day_show_pc.tscn
+msgid "Mon"
+msgstr ""
+
+#: ui/pc/class_schedule/day_show_pc.tscn
+msgid "Tue"
+msgstr ""
+
+#: ui/pc/class_schedule/day_show_pc.tscn
+msgid "Wed"
+msgstr ""
+
+#: ui/pc/class_schedule/day_show_pc.tscn
+msgid "Thu"
+msgstr ""
+
+#: ui/pc/class_schedule/day_show_pc.tscn
+msgid "Fri"
+msgstr ""
+
+#: ui/pc/class_schedule/day_show_pc.tscn
+msgid "Sat"
+msgstr ""
+
+#: ui/pc/class_schedule/day_show_pc.tscn
+msgid "Sun"
+msgstr ""

@@ -1,0 +1,59 @@
+[gd_scene format=3 uid="uid://der8hpmurji7u"]
+
+[ext_resource type="Theme" uid="uid://cswhuscgwolxr" path="res://ui/theme/default/main_title.tres" id="1_0co4m"]
+[ext_resource type="Script" uid="uid://dpmyis4hhu6ig" path="res://ui/pc/main_ui_pc.gd" id="1_sxohi"]
+[ext_resource type="PackedScene" uid="uid://duk35uoe4iysx" path="res://ui/pc/class_schedule/week_pc.tscn" id="3_g3hbe"]
+[ext_resource type="PackedScene" uid="uid://cwgv70y13ccgc" path="res://ui/pc/class_schedule/day_show_pc.tscn" id="3_m5m0m"]
+
+[node name="MainUI-PC" type="PanelContainer" unique_id=756687442]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_sxohi")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1815727164]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=390140184]
+layout_mode = 2
+
+[node name="ClassSchedule" type="VBoxContainer" parent="HBoxContainer" unique_id=486499176]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="HBoxContainer/ClassSchedule" unique_id=2131045907]
+layout_mode = 2
+theme = ExtResource("1_0co4m")
+text = "Class Schedule"
+
+[node name="DayShow-PC" parent="HBoxContainer/ClassSchedule" unique_id=1983958517 instance=ExtResource("3_m5m0m")]
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="HBoxContainer/ClassSchedule" unique_id=891304964]
+custom_minimum_size = Vector2(1074, 150)
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Day" type="VBoxContainer" parent="HBoxContainer/ClassSchedule/ScrollContainer" unique_id=2136471569]
+layout_mode = 2
+
+[node name="Week-PC" parent="HBoxContainer/ClassSchedule/ScrollContainer/Day" unique_id=229649314 instance=ExtResource("3_g3hbe")]
+custom_minimum_size = Vector2(1056, 150)
+layout_mode = 2
+
+[node name="Week-PC2" parent="HBoxContainer/ClassSchedule/ScrollContainer/Day" unique_id=187629383 instance=ExtResource("3_g3hbe")]
+layout_mode = 2
+
+[node name="Week-PC3" parent="HBoxContainer/ClassSchedule/ScrollContainer/Day" unique_id=384894126 instance=ExtResource("3_g3hbe")]
+layout_mode = 2
+
+[node name="Week-PC4" parent="HBoxContainer/ClassSchedule/ScrollContainer/Day" unique_id=737306801 instance=ExtResource("3_g3hbe")]
+layout_mode = 2
+
+[node name="Week-PC5" parent="HBoxContainer/ClassSchedule/ScrollContainer/Day" unique_id=1504408075 instance=ExtResource("3_g3hbe")]
+layout_mode = 2
+
+[node name="Week-PC6" parent="HBoxContainer/ClassSchedule/ScrollContainer/Day" unique_id=1511945300 instance=ExtResource("3_g3hbe")]
+custom_minimum_size = Vector2(0, 0)
+layout_mode = 2
